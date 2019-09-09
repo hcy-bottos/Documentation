@@ -134,6 +134,9 @@
   }
   ```
 
+
+
+
 ## 创建账号
 
 **接口功能**
@@ -209,13 +212,16 @@
         "trx_hash": "e5281d1bbc7b70f955136fa9c32cfecadebf6f07956a55ad85ff7a5f9e32428a"
     }
 }
-  ```
+
+  ---
+
 
 
 
 ## 手动创建钱包
 
 **接口功能**
+
 
 > 接口说明： 手动创建钱包，钱包文件包默认保存在 Linux： /home/bottos/bot/ 目录下，生成的钱包文件名称，默认为账号名称+".keystore"后缀
 >
@@ -238,6 +244,7 @@
 | account_name | TRUE | string | 无     | 账号名称 |
 | private_key  | TRUE | string | 无     | 私钥     |
 | passwd       | TRUE | string | 无     | 密码     |
+
 
 **响应字段：**
 
@@ -276,7 +283,7 @@
           "wallet_name": "testtest1.keystore"
       }
   }
-  ```
+    ```
 
 
 
@@ -456,6 +463,7 @@
 
   ```
   无
+  
   ```
 
 - 响应：
@@ -474,6 +482,7 @@
   		"account_name": "delegatecreate2"
   	}]
   }
+  
   ```
 
 
@@ -526,6 +535,7 @@
   {
   	"account_name":"testtest"
   }
+  
   ```
 
 - 响应：
@@ -601,6 +611,7 @@
   	"type": "normal",
   	"push_url": "testnetservice2.bottos.org:8689"
   }
+  
   ```
 
 - 响应：
@@ -623,6 +634,7 @@
           "signature": "2157bebc67481effcedcfacdf59da4ffc06976c443dedb7c511d7663a3126fe44191ae9c8f4605ea64566a4893d87a7cee3cc9f19c966fc214c6b6ee3c562f85"
       }
   }
+  
   ```
 
 ## 对HASH签名
@@ -687,5 +699,6 @@
           "sign_value": "ed6b57fa91ee369af925e4c0545c06f5829ce3d2825949931a2b8816039f53f47160701c779b528abe84f5d6acdb2d9c46de6958e42606d2e4d7b9b072991729"
       }
   }
+
   ```
 
